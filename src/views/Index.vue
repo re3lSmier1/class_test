@@ -20,6 +20,7 @@ let studentNames = ref([
     <Navbar />
     <Carousel />
      <br><br><br>
+     <br><br><br>
     <div>
       <span style="margin-right: 15px" v-for="(name, index) in studentNames">{{ name }} {{ index +1 }}</span>
     </div>
